@@ -7,7 +7,6 @@
   font-size: 1em;
   margin: 0px;
   padding: 0px;
-  /* Incluir bordas no cálculo do tamanho */
   box-sizing: border-box;
 }
 
@@ -42,10 +41,7 @@ img {
   margin: auto;
 }
 
-/* Como é a versão Mobile First, deixamos apenas o ícone do phone aparecer*/
 img#phone { display: block;}
-
-/* Como sumir com as img que colocamos */
 img#tablet { display: none;}
 img#print { display: none;}
 img#pc { display: none;}
